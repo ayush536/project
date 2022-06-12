@@ -1,0 +1,12 @@
+.main{
+    border: 1px solid transparent;
+    width: 450px;
+    height: 490px;
+    margin-left: 35%;
+    text-align: center;
+}
+
+body{
+    background-color: aliceblue;
+    
+}

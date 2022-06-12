@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-gap: 20px;
+    margin: auto;
+    width: 75%;
+
+}
+.container >div:hover{
+    border: 3px solid ;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.container >div{
+    border-radius: 20px;
+    /* border: 3px solid black; */
+    background-color: grey;
+    padding: 20px;
+    /* box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3); */
+}
+
+.card{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+/* .text-link{
+    border: 1px solid red;
+} */
+.man{
+    border: 3px solid transparent;
+    border-radius: 20px;
+    /* border: 3px solid black; */
+    background-color: beige;
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.man:hover{
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: beige;
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+    /* font-size: xx-large; */
+    
+}

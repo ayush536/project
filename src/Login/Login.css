@@ -1,0 +1,24 @@
+.loginBox{
+    border: 4px solid gray;
+    width: 400px;
+    height: 520px;
+    margin: auto;
+    border-radius: 20px;
+}
+.loginlogo{
+    width: 130px;
+    height: 130px;
+    border-radius: 90px;
+    margin-top: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: 20px 20px 50px grey;
+}
+.inner{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 350px;
+    margin-top: 25px;
+}
+.dhon{
+    border: 2px;
+}
