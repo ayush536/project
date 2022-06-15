@@ -1,4 +1,4 @@
-.main{
+/* .main{
     border: 1px solid transparent;
     width: 450px;
     height: 490px;
@@ -9,4 +9,45 @@
 body{
     background-color: aliceblue;
     
-}
+} */
+
+
+.containerr {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .containerr > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: teal;
+    font-size: larger;
+  }
+  
+  /* button {
+    background: #0563b4 !important;
+  } */
+  .pa{
+    color: red;
+  }
+  
+  .display{
+    color: teal;
+    font-size: xx-large;
+    font-weight: 900;
+  }
+
+  .bharo{
+    size: large;
+  }
