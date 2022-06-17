@@ -73,7 +73,7 @@ export const Grocerry=()=> {
     
    }
   return <>
-    <h1>Electronics <TipsAndUpdatesRoundedIcon /> </h1>
+    <h1>Accessories <TipsAndUpdatesRoundedIcon /> </h1>
     <TextField
     type="text"
     label="Search..."

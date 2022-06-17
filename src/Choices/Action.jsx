@@ -26,7 +26,8 @@ const getData = (token) => (dispatch)=>{
 
 const AddCartFunc = (obj, token)=>{
     axios.post("https://apnabazarapi.herokuapp.com/cart", obj, token).then(()=>{
-        alert(`${obj.cartId.title} added to cart`)
+        // alert(`${obj.cartId.title} added to cart`)
+        alert('Item added to cart')
     }).catch((err)=> console.log("Failed: Error to add product in cart"))
 }
 const getCart = (token)=>(dispatch)=>{

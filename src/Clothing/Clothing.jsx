@@ -73,7 +73,7 @@ export const Clothing=()=> {
     
    }
   return <>
-    <h1>Electronics <TipsAndUpdatesRoundedIcon /> </h1>
+    <h1>Clothings <TipsAndUpdatesRoundedIcon /> </h1>
     <TextField
     type="text"
     label="Search..."

@@ -59,6 +59,9 @@ export const Cart = () => {
   }
   // console.log("Total: ",arr.reduce((e, sum)=> return sum += e.price * e.qty ))
 
+  function myFunctionss() {
+    alert("Item removed from cart.")
+}
   return (
     <>
     <h1>Cart <ShoppingCartRoundedIcon /> </h1>
@@ -140,7 +143,7 @@ export const Cart = () => {
                    {e.qty}
                   <button onClick={() => handleCount(e._id, e.qty = -1 + e.qty)}> - </button>
                 </TableCell>
-                <TableCell align="right" onClick={() => handleDelete(e._id)}>
+                <TableCell align="right" onClick={() => handleDelete(e._id)} onClickCapture={()=>myFunctionss()} >
                   <DeleteIcon />
                 </TableCell>
                 <TableCell align="right">
